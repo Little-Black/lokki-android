@@ -72,7 +72,7 @@ public class GeneralNavigationTest extends LoggedInBaseTest{
         onView(withText(R.string.contacts)).check(matches(isDisplayed()));
         onView(withText(R.string.settings)).check(matches(isDisplayed()));
         onView(withText(R.string.about)).check(matches(isDisplayed()));
-        onView(isRoot()).perform(TestUtils.swipeScreen(500, 200, 0, 200));
+        onView(isRoot()).perform(TestUtils.swipeScreen(300, 200, 0, 200));
         onView(withText(R.string.contacts)).check(matches(not(isCompletelyDisplayed())));
         onView(withText(R.string.settings)).check(matches(not(isCompletelyDisplayed())));
         onView(withText(R.string.about)).check(matches(not(isCompletelyDisplayed())));

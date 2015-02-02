@@ -9,6 +9,7 @@ import android.support.test.espresso.action.GeneralClickAction;
 import android.support.test.espresso.action.GeneralSwipeAction;
 import android.support.test.espresso.action.Press;
 import android.support.test.espresso.action.Swipe;
+import android.support.test.espresso.action.Swiper;
 import android.support.test.espresso.action.Tap;
 import android.view.View;
 
