@@ -33,7 +33,7 @@ import android.util.Log;
 /**
  * Created by Little-Black on 2/1/15.
  */
-public class GeneralNavigationTest extends MainActivityBaseTest{
+public class GeneralNavigationTest extends LoggedInBaseTest{
 
     @Override
     public void setUp() throws Exception {
